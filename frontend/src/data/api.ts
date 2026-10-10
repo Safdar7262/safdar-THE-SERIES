@@ -6,10 +6,33 @@ import type { Portfolio } from './types';
 const BASE_URL = import.meta.env.VITE_API_URL ?? '';
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
+
+/** GET a JSON file, giving up after `ms` milliseconds. */
+async function getJson(url: string, ms: number): Promise<any> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), ms);
+  try {
+    const res = await fetch(url, { signal: controller.signal });
+    if (!res.ok) throw new Error(`${url} answered with status ${res.status}`);
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+/**
+ * Loads the portfolio data:
+ *   1. from the Spring Boot API (PostgreSQL);
+ *   2. if the API is asleep / down (free hosting sleeps when idle), from /portfolio-data.json,
+ *      a copy of the same data that ships with the website. So the site always opens fast.
+ */
 export async function fetchPortfolio(): Promise<Portfolio> {
-  const res = await fetch(`${BASE_URL}/api/portfolio`);
-  if (!res.ok) throw new Error(`The API answered with status ${res.status}`);
-  const raw: any = await res.json();
+  let raw: any;
+  try {
+    raw = await getJson(`${BASE_URL}/api/portfolio`, 4000);
+  } catch {
+    raw = await getJson('/portfolio-data.json', 8000);
+  }
 
   // Small clean-up so components can use ready-made values:
   //  - palette names become real colours

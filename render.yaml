@@ -1,0 +1,17 @@
+# Render "Blueprint": creates the free backend web service from this repository.
+services:
+  - type: web
+    name: safdar-portfolio-api
+    runtime: docker
+    rootDir: backend
+    plan: free
+    healthCheckPath: /api/portfolio
+    envVars:
+      - key: DB_URL          # jdbc:postgresql://HOST/DBNAME?sslmode=require   (from Neon)
+        sync: false
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: CORS_ORIGINS    # your website address, e.g. https://safdar-azam.vercel.app
+        sync: false
