@@ -1,0 +1,374 @@
+{
+  "profile": {
+    "fullName": "Safdar Azam",
+    "displayName": "Safdar Azam",
+    "firstName": "SAFDAR",
+    "seriesTag": "THE SERIES",
+    "originalLabel": "AN AZAM ORIGINAL",
+    "role": "Java Backend Developer",
+    "tagline": ["Java Backend", "Spring Boot", "PostgreSQL"],
+    "intro": "A Java Backend Developer who builds secure, scalable REST APIs with Spring Boot, Spring Security, Hibernate and PostgreSQL. B.Tech CSE graduate (CGPA 8.1) with 9 months of hands-on full-stack training, and an immediate joiner.",
+    "location": "Bangalore, Karnataka",
+    "email": "safdarazam373@gmail.com",
+    "phone": "+91 6207274850",
+    "linkedin": "https://linkedin.com/in/safdar-azam-9272a2302",
+    "github": "https://github.com/Safdar7262",
+    "resumePdf": "/assets/Safdar_Azam_Resume.pdf",
+    "heroFacts": ["B.Tech CSE · 2025", "CGPA 8.1", "2 Originals", "Immediate Joiner"],
+    "floatingChips": [
+      { "text": "CGPA 8.1 / 10", "sub": "B.Tech CSE" },
+      { "text": "Spring Boot · Hibernate", "sub": "Primary framework" },
+      { "text": "PostgreSQL · JWT", "sub": "Core stack" }
+    ],
+    "strengths": ["Analytical Thinking", "Quick Learner", "Team Collaboration", "Self-Motivated", "Strong Communication", "Agile / Scrum"]
+  },
+
+  "education": [
+    {
+      "school": "Rungta College of Engineering & Technology",
+      "place": "Bhilai",
+      "degree": "B.Tech — Computer Science and Engineering",
+      "period": "Graduated 2025",
+      "score": "CGPA 8.1 / 10"
+    }
+  ],
+
+  "training": [
+    {
+      "company": "JSpiders Training Institute",
+      "role": "Java Full Stack Development Trainee",
+      "place": "Bangalore",
+      "period": "Aug 2025 – May 2026",
+      "points": [
+        "Completed 9-month intensive training in Java Full Stack Development: Core Java, Advanced Java, Spring Boot, Hibernate, SQL, HTML, CSS, JavaScript.",
+        "Built 3 full-stack web applications and REST APIs using Spring Boot, Spring Security, JWT authentication, and PostgreSQL/MySQL.",
+        "Documented APIs with Swagger/OpenAPI 3.0; used Git with a feature-branch workflow across all projects."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "medicare-ai",
+      "title": "MediCare AI",
+      "badge": "FULL-STACK",
+      "genre": "Healthcare • AI Chatbot • Spring Boot",
+      "logline": "A healthcare chatbot platform that answers patient questions with OpenAI / Gemini and secures every role with JWT.",
+      "stack": ["Java 17", "Spring Boot 3.2", "PostgreSQL", "JWT", "OpenAI / Gemini API", "HTML", "Tailwind CSS", "JavaScript"],
+      "build": [
+        "Built a full-stack healthcare chatbot application using Spring Boot 3.2 and Java 17 with PostgreSQL, integrating OpenAI/Gemini APIs to generate intelligent, context-aware responses.",
+        "Implemented JWT-based authentication and role-based access control for Patient, Doctor, and Admin roles.",
+        "Designed a responsive frontend with HTML, Tailwind CSS, and vanilla JavaScript, including a dark/light mode toggle."
+      ],
+      "features": [
+        "AI chatbot with context-aware answers (OpenAI / Gemini)",
+        "JWT authentication",
+        "Role-based access: Patient, Doctor, Admin",
+        "Responsive UI with dark / light mode"
+      ],
+      "metrics": [
+        { "value": "3", "label": "user roles: Patient, Doctor, Admin" },
+        { "value": "2", "label": "AI providers: OpenAI & Gemini" },
+        { "value": "JWT", "label": "authentication + RBAC" },
+        { "value": "17", "label": "Java version (Spring Boot 3.2)" }
+      ],
+      "github": "https://github.com/Safdar7262/MediCare-AI-Intelligent-Healthcare-Assistant",
+      "palette": "crimson",
+      "motif": "shield"
+    },
+    {
+      "id": "edusphere",
+      "title": "EduSphere",
+      "badge": "CORE JAVA",
+      "genre": "Student Management • CRUD • MVC",
+      "logline": "A CRUD student management system on Servlets and JDBC with a clean Controller → Service → DAO architecture.",
+      "stack": ["Core Java", "Servlets", "JDBC", "PostgreSQL", "MVC", "HTML5", "CSS3", "Git", "Apache Tomcat"],
+      "build": [
+        "Developed a CRUD-based Student Management System using MVC architecture and JDBC PreparedStatements to prevent SQL injection; designed a normalized PostgreSQL schema with indexing for optimized query performance.",
+        "Implemented search, filter, and server-side pagination for 500+ records; deployed on Apache Tomcat following Controller → Service → DAO layered architecture."
+      ],
+      "features": [
+        "Create, read, update and delete students",
+        "Search and filter",
+        "Server-side pagination",
+        "PreparedStatements against SQL injection",
+        "Normalized PostgreSQL schema with indexing"
+      ],
+      "metrics": [
+        { "value": "500+", "label": "records with search, filter & pagination" },
+        { "value": "3", "label": "layers: Controller → Service → DAO" },
+        { "value": "MVC", "label": "architecture" },
+        { "value": "JDBC", "label": "PreparedStatement queries" }
+      ],
+      "github": "https://github.com/Safdar7262/EduSphere-Student-Management-System",
+      "palette": "ocean",
+      "motif": "tenants"
+    }
+  ],
+
+  "skills": [
+    {
+      "id": "languages",
+      "title": "Languages",
+      "subtitle": "Java is the primary language",
+      "skills": [
+        { "name": "Core Java 8/11/17", "mono": "Jv", "note": "Primary" },
+        { "name": "SQL", "mono": "Sq" },
+        { "name": "JavaScript", "mono": "Js" },
+        { "name": "HTML5", "mono": "Ht" },
+        { "name": "CSS3", "mono": "Cs" }
+      ]
+    },
+    {
+      "id": "spring",
+      "title": "Spring Ecosystem",
+      "subtitle": "Frameworks for the server side",
+      "skills": [
+        { "name": "Spring", "mono": "Sp" },
+        { "name": "Spring Boot", "mono": "Sb", "note": "Primary" },
+        { "name": "Spring MVC", "mono": "Mv" },
+        { "name": "Spring Security", "mono": "Ss" },
+        { "name": "Spring Data JPA", "mono": "Jp" },
+        { "name": "Hibernate ORM", "mono": "Hb" }
+      ]
+    },
+    {
+      "id": "apis",
+      "title": "APIs & Security",
+      "subtitle": "Secure, documented services",
+      "skills": [
+        { "name": "REST APIs", "mono": "Ap" },
+        { "name": "Servlets", "mono": "Sv" },
+        { "name": "JDBC", "mono": "Jd" },
+        { "name": "JWT Authentication", "mono": "Jw" },
+        { "name": "BCrypt", "mono": "Bc" },
+        { "name": "RBAC", "mono": "Rb" },
+        { "name": "Swagger / OpenAPI", "mono": "Sw" },
+        { "name": "Microservices (fundamentals)", "mono": "Ms" }
+      ]
+    },
+    {
+      "id": "databases",
+      "title": "Databases",
+      "subtitle": "Schema design • Indexing",
+      "skills": [
+        { "name": "PostgreSQL", "mono": "Pg" },
+        { "name": "MySQL", "mono": "My" }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "subtitle": "Everyday workflow",
+      "skills": [
+        { "name": "Git", "mono": "Gt" },
+        { "name": "GitHub", "mono": "Gh" },
+        { "name": "Maven", "mono": "Mv" },
+        { "name": "Postman", "mono": "Pm" },
+        { "name": "VS Code", "mono": "Vs" },
+        { "name": "Eclipse", "mono": "Ec" }
+      ]
+    },
+    {
+      "id": "fundamentals",
+      "title": "CS Fundamentals",
+      "subtitle": "The foundations",
+      "skills": [
+        { "name": "OOPs", "mono": "Oo" },
+        { "name": "DSA", "mono": "Ds" },
+        { "name": "Collections Framework", "mono": "Co" },
+        { "name": "Multithreading", "mono": "Mt" },
+        { "name": "Streams API", "mono": "St" },
+        { "name": "Exception Handling", "mono": "Ex" },
+        { "name": "SOLID Principles", "mono": "So" }
+      ]
+    }
+  ],
+
+  "skillEvidence": {
+    "Core Java 8/11/17": ["MediCare AI (Java 17)", "EduSphere", "100+ DSA problems in Java"],
+    "SQL": ["JSpiders training", "EduSphere"],
+    "JavaScript": ["MediCare AI frontend", "JSpiders training"],
+    "HTML5": ["MediCare AI", "EduSphere"],
+    "CSS3": ["EduSphere", "JSpiders training"],
+    "Spring Boot": ["MediCare AI (Spring Boot 3.2)", "JSpiders training"],
+    "Spring Security": ["JSpiders training"],
+    "Spring Data JPA": ["JSpiders training"],
+    "Hibernate ORM": ["JSpiders training"],
+    "REST APIs": ["MediCare AI", "JSpiders training"],
+    "Servlets": ["EduSphere"],
+    "JDBC": ["EduSphere (PreparedStatements)"],
+    "JWT Authentication": ["MediCare AI", "JSpiders training"],
+    "RBAC": ["MediCare AI (Patient, Doctor, Admin)"],
+    "Swagger / OpenAPI": ["JSpiders training (OpenAPI 3.0)"],
+    "PostgreSQL": ["MediCare AI", "EduSphere"],
+    "MySQL": ["JSpiders training"],
+    "Git": ["JSpiders training (feature-branch workflow)"],
+    "DSA": ["100+ problems on LeetCode & HackerRank"]
+  },
+
+  "journey": [
+    {
+      "number": 1,
+      "title": "The Foundation",
+      "period": "Up to 2025",
+      "synopsis": "A B.Tech in Computer Science and Engineering at Rungta College of Engineering & Technology, Bhilai — and the problem-solving habits that came with it.",
+      "episodes": [
+        {
+          "code": "S01 E01",
+          "title": "The Engineer",
+          "description": "B.Tech in Computer Science and Engineering, graduating in 2025 with a CGPA of 8.1 / 10.",
+          "tags": ["B.Tech", "CSE", "CGPA 8.1"],
+          "runtime": "Graduated 2025",
+          "palette": "violet"
+        },
+        {
+          "code": "S01 E02",
+          "title": "The Problem Solver",
+          "description": "100+ problems solved in Java on LeetCode and HackerRank — Arrays, Linked Lists, Trees, Graphs and Dynamic Programming.",
+          "tags": ["DSA", "LeetCode", "HackerRank", "Big-O"],
+          "runtime": "100+ problems",
+          "palette": "jade"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Learning to Build",
+      "period": "Aug 2025 – May 2026",
+      "synopsis": "Nine intensive months of Java Full Stack training at JSpiders Training Institute, Bangalore.",
+      "episodes": [
+        {
+          "code": "S02 E01",
+          "title": "The Trainee",
+          "description": "9-month intensive training: Core Java, Advanced Java, Spring Boot, Hibernate, SQL, HTML, CSS and JavaScript.",
+          "tags": ["Core Java", "Spring Boot", "Hibernate", "SQL"],
+          "runtime": "Aug 2025 – May 2026",
+          "palette": "ocean"
+        },
+        {
+          "code": "S02 E02",
+          "title": "The Backend Dev",
+          "description": "Built 3 full-stack web applications and REST APIs with Spring Boot, Spring Security, JWT and PostgreSQL / MySQL.",
+          "tags": ["Spring Security", "JWT", "PostgreSQL", "MySQL"],
+          "runtime": "3 applications",
+          "palette": "crimson"
+        },
+        {
+          "code": "S02 E03",
+          "title": "The Documenter",
+          "description": "Documented APIs with Swagger / OpenAPI 3.0 and used Git with a feature-branch workflow across every project.",
+          "tags": ["Swagger", "OpenAPI 3.0", "Git"],
+          "runtime": "Every project",
+          "palette": "amber"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Building Real Projects",
+      "period": "Projects",
+      "synopsis": "Two Originals on GitHub — an AI healthcare platform and a layered student management system.",
+      "episodes": [
+        {
+          "code": "S03 E01",
+          "title": "The Healthcare Builder",
+          "description": "MediCare AI — Spring Boot 3.2, PostgreSQL, JWT and an OpenAI / Gemini powered chatbot for Patients, Doctors and Admins.",
+          "tags": ["Java 17", "Spring Boot", "JWT", "OpenAI / Gemini"],
+          "runtime": "Full-stack",
+          "palette": "crimson"
+        },
+        {
+          "code": "S03 E02",
+          "title": "The Architect",
+          "description": "EduSphere — MVC with Servlets and JDBC, Controller → Service → DAO layers, search, filter and pagination over 500+ records.",
+          "tags": ["Servlets", "JDBC", "PostgreSQL", "Tomcat"],
+          "runtime": "Core Java",
+          "palette": "ocean"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "What's Next",
+      "period": "Now streaming",
+      "synopsis": "The next chapter is a Backend Developer role.",
+      "episodes": [
+        {
+          "code": "S04 E01",
+          "title": "Ready to Join",
+          "description": "An immediate joiner based in Bangalore, looking for a Backend Developer role.",
+          "tags": ["Immediate Joiner", "Backend Developer", "Bangalore"],
+          "runtime": "Open to work",
+          "palette": "violet"
+        }
+      ]
+    }
+  ],
+
+  "highlights": [
+    {
+      "id": "cgpa",
+      "title": "8.1 CGPA",
+      "org": "B.Tech · CSE",
+      "detail": "Rungta College of Engineering & Technology, Bhilai — graduated 2025.",
+      "laurel": "Graduate"
+    },
+    {
+      "id": "training",
+      "title": "9-Month Training",
+      "org": "JSpiders · Bangalore",
+      "detail": "Intensive Java Full Stack program: Core & Advanced Java, Spring Boot, Hibernate and SQL.",
+      "laurel": "Aug 2025 – May 2026"
+    },
+    {
+      "id": "apps",
+      "title": "3 Full-Stack Apps",
+      "org": "Spring Boot · JWT · PostgreSQL / MySQL",
+      "detail": "Built during training with Spring Security, REST APIs and Swagger / OpenAPI docs.",
+      "laurel": "Hands-on"
+    },
+    {
+      "id": "dsa",
+      "title": "100+ Problems",
+      "org": "LeetCode · HackerRank",
+      "detail": "Solved in Java — Two Pointer, Sliding Window, Binary Search, Recursion, BFS / DFS and Dynamic Programming.",
+      "laurel": "Problem Solving"
+    }
+  ],
+
+  "introSlides": [
+    {
+      "kicker": "Education",
+      "title": "B.Tech · CSE",
+      "lines": ["Rungta College of Engineering & Technology, Bhilai", "Graduated 2025"],
+      "chips": ["CGPA 8.1"]
+    },
+    {
+      "kicker": "Skills",
+      "title": "Java first.",
+      "lines": ["Core Java 8 / 11 / 17 · Spring Boot · Spring Security", "Spring Data JPA · Hibernate · REST APIs"],
+      "chips": ["Java", "Spring Boot", "Hibernate", "PostgreSQL", "JWT", "Maven"]
+    },
+    {
+      "kicker": "Training",
+      "title": "The Training Arc",
+      "lines": ["9-month Java Full Stack program", "JSpiders Training Institute · Aug 2025 – May 2026", "Core Java · Spring Boot · Hibernate · SQL"]
+    },
+    {
+      "kicker": "Projects",
+      "title": "Two Originals",
+      "lines": ["MediCare AI — Spring Boot 3.2, JWT, OpenAI / Gemini", "EduSphere — Servlets, JDBC, PostgreSQL, 500+ records"]
+    },
+    {
+      "kicker": "Problem solving",
+      "title": "100+ Problems",
+      "lines": ["LeetCode & HackerRank, solved in Java", "Arrays · Trees · Graphs · Dynamic Programming"]
+    },
+    {
+      "kicker": "Current mission",
+      "title": "Open to work",
+      "lines": ["Immediate joiner · Backend Developer · Bangalore"]
+    }
+  ]
+}
